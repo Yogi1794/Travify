@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/Restaurant"
+        android:icon="@drawable/ic_hotel_black_24dp"
+        android:title="Hotels &amp; Restaurant"/>
+
+    <item
+        android:id="@+id/monument"
+        android:icon="@drawable/ic_museum"
+        android:title="Monuments"/>
+
+    <item android:id="@+id/museum"
+        android:icon="@drawable/ic_museum"
+        android:title="Museums"/>
+
+
+
+
+    <!--   <item
+           android:id="@+id/favouriteId"
+           android:icon="@drawable/ic_favorite_border"
+           android:title="Favourite"/>-->
+
+
+
+
+
+    <item
+        android:id="@+id/hospital"
+        android:icon="@drawable/ic_local_hospital_black_24dp"
+        android:title="Hospitals"/>
+    <item
+        android:id="@+id/atm"
+        android:icon="@drawable/ic_local_atm_black_24dp"
+        android:title="ATM"/>
+    </group>
+
+
+
+</menu>

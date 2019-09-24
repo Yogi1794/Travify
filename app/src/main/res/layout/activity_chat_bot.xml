@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatBot">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/speak"
+        android:text="Speak"
+        app:backgroundTint="#347A6A"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/Speakresponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speak"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        app:fontFamily="@font/hind_light" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/SpeakGetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/speak"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textSize="32sp"
+        app:fontFamily="@font/hind_light" />
+
+
+</RelativeLayout>
